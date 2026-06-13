@@ -116,3 +116,39 @@ Currently, we provide code of:
 ```bash
 $ CUDA_VISIBLE_DEVICES="GPU IDs" python -m torch.distributed.launch --nproc_per_node="GPU numbers" train.py
 ```
+## Evaluation
+Run the evaluation by:
+```
+CUDA_VISIBLE_DEVICES="GPU IDs" python eval.py -d="Device ID" -e="epoch number or range"
+```
+If you want to use multi GPUs please specify multiple Device IDs (0,1,2...).
+##  visualization
+## Visualization
+
+Here, we provide comprehensive visual comparisons of our semantic segmentation results across different challenging scenarios. The outputs demonstrate how our network effectively fuses RGB and LiDAR/heterogeneous data to achieve precise boundary delineation and noise suppression.
+
+## Visualization
+
+Here, we provide comprehensive visual comparisons of our semantic segmentation results across different challenging scenarios. The outputs demonstrate how our network effectively fuses RGB and LiDAR/heterogeneous data to achieve precise boundary delineation and noise suppression.
+
+<p align="center">
+  <img src="docs/mfnet.png" alt="Visualization 1" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/mcubes.png" alt="Visualization 2" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/stsd.png" alt="Visualization 3" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/cityscapes.png" alt="Visualization 4" width="100%">
+</p>
