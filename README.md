@@ -80,11 +80,18 @@ For preparation of the datasets, please refer to their official websites or our 
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [STSD](https://github.com/lichking2017/STSD)
 * [MCubeS](https://multimodal-material-segmentation.github.io/)
+
 ## Models
 
+### Overall Architecture
+
+The overall architecture of our proposed Tri-branch Multimodal Semantic Segmentation Network (TRFS) is illustrated below. 
+
 <p align="center">
-  <img src="docs/dataset_samples.png" alt="Multimodal Dataset Samples" width="100%">
+  <img src="docs/framework.png" alt="TRFS Overall Framework" width="100%">
 </p>
+
+### Core Modules
 Currently, we provide code of:
 
 <p align="center">
