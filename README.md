@@ -12,7 +12,7 @@ Our framework is highly optimized for the robust fusion of **RGB images and LiDA
 
 
 
-##Datasets
+## Datasets
 
 The data folder is structured as:
 
