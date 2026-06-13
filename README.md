@@ -7,8 +7,25 @@ Multimodal semantic segmentation plays a crucial role in complex scene understan
 To address these critical challenges, we introduce **TRFS**, a novel **Tri-branch Multimodal Semantic Segmentation Network**. Diverging from conventional dual-stream architectures, TRFS introduces a specialized third branch to explicitly handle modality alignment and suppress noise propagation during the feature fusion process. 
 
 Our framework is highly optimized for the robust fusion of **RGB images and LiDAR point cloud data**, effectively leveraging the rich photometric textures from RGB and the precise geometric structure from LiDAR to produce highly accurate segmentation maps.
-##Installation
-1.Requirements
+## Installation
+
+1. Requirements
+
+* Python 3.7+
+* PyTorch 1.7.0 or higher
+* CUDA 10.2 or higher
+
+We have tested the following versions of OS and softwares:
+
+* OS: Ubuntu 18.04.6 LTS
+* CUDA: 10.2
+* PyTorch 1.8.2
+* Python 3.8.11
+
+2. Install all dependencies. Install pytorch, cuda and cudnn, then install other dependencies via:
+
+```bash
+pip install -r requirements.txt
 
 
 
