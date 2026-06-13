@@ -78,7 +78,8 @@ For preparation of the datasets, please refer to their official websites or our 
 
 * [MFNet](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)
 * [Cityscapes](https://www.cityscapes-dataset.com/)
-* [STSD](https://github.com/lichking2017/STSD) * [MCubeS](https://multimodal-material-segmentation.github.io/)
+* [STSD](https://github.com/lichking2017/STSD)
+* [MCubeS](https://multimodal-material-segmentation.github.io/)
 ## Models
 
 Currently, we provide code of:
@@ -90,3 +91,23 @@ Currently, we provide code of:
 </p>
 
 > **Figure:** *Detailed architecture of our proposed modules. **Left:** The Tri-Branch Cross-Modal Feature Rectification Module (TB-CMFRM). **Right:** The Tri-Branch Feature Fusion Module (TB-FFM).*
+## Train
+
+1. Pretrain weights:
+   
+   Download the pretrained segformer here [pretrained segformer](https://drive.google.com/drive/folders/10XgSW8f7ghRs9fJ0dE-EV8G2E_guVsT5).
+
+2. Config
+   
+   Edit config file in `configs.py`, including dataset and network settings.
+
+3. Run single GPU  training:
+ 
+ ```bash
+   python train.py --device 0
+ ```
+4.  Run multi GPU distributed training:
+
+```bash
+$ CUDA_VISIBLE_DEVICES="GPU IDs" python -m torch.distributed.launch --nproc_per_node="GPU numbers" train.py
+```
