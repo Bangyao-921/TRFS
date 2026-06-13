@@ -82,6 +82,9 @@ For preparation of the datasets, please refer to their official websites or our 
 * [MCubeS](https://multimodal-material-segmentation.github.io/)
 ## Models
 
+<p align="center">
+  <img src="docs/dataset_samples.png" alt="Multimodal Dataset Samples" width="100%">
+</p>
 Currently, we provide code of:
 
 <p align="center">
