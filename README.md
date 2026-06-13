@@ -18,16 +18,14 @@ Our framework is highly optimized for the robust fusion of **RGB images and LiDA
 We have tested the following versions of OS and softwares:
 
 * OS: Ubuntu 18.04.6 LTS
-* CUDA: 10.2
-* PyTorch 1.8.2
+* CUDA: 12.1
+* PyTorch 2.3.1
 * Python 3.8.11
 
 2. Install all dependencies. Install pytorch, cuda and cudnn, then install other dependencies via:
 
 ```bash
 pip install -r requirements.txt
-
-
 
 ## Datasets
 
