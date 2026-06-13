@@ -96,6 +96,11 @@ Currently, we provide code of:
 1. Pretrain weights:
    
    Download the pretrained segformer here [pretrained segformer](https://drive.google.com/drive/folders/10XgSW8f7ghRs9fJ0dE-EV8G2E_guVsT5).
+   ```
+    checkpoints/pretrained/segformer
+    ├── mit_b2.pth
+    └── mit_b4.pth
+   ```
 
 2. Config
    
