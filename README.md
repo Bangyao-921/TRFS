@@ -15,6 +15,8 @@ Our framework is highly optimized for the robust fusion of **RGB images and LiDA
 ##Datasets
 
 The data folder is structured as:
+
+```text
 <DATASET_ROOT>/
 ├── cityscapes-DDC/
 │   ├── RGB/
