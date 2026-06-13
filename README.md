@@ -175,5 +175,5 @@ Here, we provide comprehensive visual comparisons of our semantic segmentation r
 
 ## Acknowledgement
 Thanks for the public repositories:
-*[CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation/)
-*[CMNeXt](https://github.com/InSAI-Lab/DELIVER/tree/main/)
+* [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation/)
+* [CMNeXt](https://github.com/InSAI-Lab/DELIVER/tree/main/)
