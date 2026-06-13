@@ -11,7 +11,7 @@ Our framework is highly optimized for the robust fusion of **RGB images and LiDA
 
 1. Requirements
 
-* Python 3.7+
+* Python 3.8+
 * PyTorch 1.7.0 or higher
 * CUDA 10.2 or higher
 
