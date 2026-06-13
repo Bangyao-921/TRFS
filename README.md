@@ -26,7 +26,7 @@ We have tested the following versions of OS and softwares:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Datasets
 
 The data folder is structured as:
