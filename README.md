@@ -122,10 +122,6 @@ Run the evaluation by:
 CUDA_VISIBLE_DEVICES="GPU IDs" python eval.py -d="Device ID" -e="epoch number or range"
 ```
 If you want to use multi GPUs please specify multiple Device IDs (0,1,2...).
-##  visualization
-## Visualization
-
-Here, we provide comprehensive visual comparisons of our semantic segmentation results across different challenging scenarios. The outputs demonstrate how our network effectively fuses RGB and LiDAR/heterogeneous data to achieve precise boundary delineation and noise suppression.
 
 ## Visualization
 
@@ -152,3 +148,32 @@ Here, we provide comprehensive visual comparisons of our semantic segmentation r
 <p align="center">
   <img src="docs/cityscapes.png" alt="Visualization 4" width="100%">
 </p>
+
+## Result
+
+### MFNet
+
+| Model-Modal | mIoU | weight |
+| :--- | :--- | :--- |
+| TRFS-RGB-T-T (MiT-B4) | 60.5 | [GoogleDrive](#) |
+### MCubeS
+
+| Model-Modal | mIoU | weight |
+| :--- | :--- | :--- |
+| TRFS-RGB-D-N (MiT-B4) | 51.21 | [GoogleDrive](#) |
+
+### Cityscapes
+
+| Model-Modal | mIoU | weight |
+| :--- | :--- | :--- |
+| TRFS-RGB-Di-De(MiT-B4) | 79.3 | [GoogleDrive](#) |
+### STSD
+
+| Model-Modal | mIoU | weight |
+| :--- | :--- | :--- |
+| TRFS-RGB-H-Z(MiT-B4) | 89.07 | [GoogleDrive](#) |
+
+## Acknowledgement
+Thanks for the public repositories:
+*[CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation/)
+*[CMNeXt](https://github.com/InSAI-Lab/DELIVER/tree/main/)
