@@ -70,3 +70,15 @@ To intuitively illustrate the heterogeneous characteristics and data distributio
 </p>
 
 > **Figure:** *The datasets used are MFNet, MCubeS, Cityscapes-DDC, and STSD. The X-modal input data consists of thermal infrared, near-infrared, binocular stereo matching disparity maps, and local H-axis channel images of point cloud projections, in that order. The Y-modal input data consists of linear polarization, depth maps, and local Z-axis channel images of point cloud projections, in that order.*
+
+## Models
+
+Currently, we provide code of:
+
+<p align="center">
+  <img src="docs/TB-CM-FRM.png" alt="TB-CMFRM Module" width="48%">
+  &nbsp; &nbsp; 
+  <img src="docs/TB-FFM.png" alt="TB-FFM Module" width="48%">
+</p>
+
+> **Figure:** *Detailed architecture of our proposed modules. **Left:** The Tri-Branch Cross-Modal Feature Rectification Module (TB-CMFRM). **Right:** The Tri-Branch Feature Fusion Module (TB-FFM).*
